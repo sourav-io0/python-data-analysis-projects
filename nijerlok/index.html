@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NijerLok - Trusted Home Services</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav id="navbar">
+    <div class="container nav-content">
+        <div class="logo">NijerLok</div>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#services">Services</a>
+            <a href="#how">How it Works</a>
+            <a href="#why">Why Us</a>
+            <a href="#reviews">Reviews</a>
+            <button class="btn primary" onclick="openModal()">Book Service</button>
+        </div>
+
+        <div class="menu" onclick="toggleMenu()">☰</div>
+    </div>
+</nav>
+
+<header class="hero container">
+
+    <div class="hero-text">
+
+        <h1>Your trusted person for every home service.</h1>
+
+        <p>Electricians, plumbers, carpenters, painters and more — verified local professionals at your doorstep.</p>
+
+        <div class="hero-buttons">
+            <button class="btn primary" onclick="openModal()">Book a Service</button>
+            <a href="#services" class="btn secondary">Explore Services</a>
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <div class="badge b1">✓ Verified</div>
+        <div class="badge b2">★ 4.9 Rating</div>
+        <div class="badge b3">Available Today</div>
+
+        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800"
+            alt="Home service professional">
+
+    </div>
+
+</header>
+
+<section id="services">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Everything your home needs.</h2>
+<p>Trusted local professionals for everyday repairs.</p>
+</div>
+
+<div class="grid">
+
+<div class="card">⚡<h3>Electrician</h3><p>Wiring & repairs.</p></div>
+
+<div class="card">🔧<h3>Plumber</h3><p>Leak fixes.</p></div>
+
+<div class="card">🪚<h3>Carpenter</h3><p>Furniture work.</p></div>
+
+<div class="card">🧱<h3>Mistri</h3><p>Masonry work.</p></div>
+
+<div class="card">🎨<h3>Painter</h3><p>Painting services.</p></div>
+
+<div class="card">❄️<h3>AC Repair</h3><p>Cooling & appliances.</p></div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="how">
+
+<div class="container">
+
+<div class="section-title">
+<h2>How it Works</h2>
+</div>
+
+<div class="steps">
+
+<div><span>01</span><h3>Book</h3><p>Tell us what you need.</p></div>
+
+<div><span>02</span><h3>We Match</h3><p>We find the right professional.</p></div>
+
+<div><span>03</span><h3>Done</h3><p>Your job gets completed.</p></div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="why">
+
+<div class="container why-grid">
+
+<div>
+
+<h2>Why people choose NijerLok</h2>
+
+<ul>
+<li>✔ Verified Professionals</li>
+<li>✔ Transparent Pricing</li>
+<li>✔ Local Support</li>
+<li>✔ Reliable Service</li>
+<li>✔ Easy Booking</li>
+</ul>
+
+</div>
+
+<div class="stats">
+
+<div><h3 id="s1">0</h3><p>Professionals</p></div>
+
+<div><h3 id="s2">0</h3><p>Services</p></div>
+
+<div><h3 id="s3">0</h3><p>Rating</p></div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="reviews">
+
+<div class="container">
+
+<div class="section-title">
+<h2>What customers say</h2>
+</div>
+
+<div class="grid">
+
+<div class="testimonial">
+★★★★★
+<p>"Got an electrician within an hour."</p>
+<strong>Rahul — Kolkata</strong>
+</div>
+
+<div class="testimonial">
+★★★★★
+<p>"Very easy booking process."</p>
+<strong>Ananya — Howrah</strong>
+</div>
+
+<div class="testimonial">
+★★★★★
+<p>"Much better than random phone numbers."</p>
+<strong>Imran — Salt Lake</strong>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container local">
+
+<div>
+
+<h2>Local professionals. One trusted place.</h2>
+
+<p>Find verified professionals in your own neighbourhood.</p>
+
+</div>
+
+<div class="map">
+
+<div class="dot d1"></div>
+
+<div class="dot d2"></div>
+
+<div class="dot d3"></div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="container">
+
+<div class="cta">
+
+<h2>Need something fixed?</h2>
+
+<p>We've got your back.</p>
+
+<button class="btn secondary" onclick="openModal()">Book Service</button>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="container footer">
+
+<div>
+<h3>NijerLok</h3>
+<p>Your trusted person for every home service.</p>
+</div>
+
+<div>
+<a href="#services">Services</a>
+<a href="#how">How it Works</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</div>
+
+<div>
+<p>+91 XXXXX XXXXX</p>
+<p>hello@nijerlok.in</p>
+</div>
+
+</div>
+
+</footer>
+
+<div class="modal" id="modal">
+
+<div class="modal-box">
+
+<span class="close" onclick="closeModal()">×</span>
+
+<div id="step1">
+
+<h2>Select Service</h2>
+
+<select>
+<option>Electrician</option>
+<option>Plumber</option>
+<option>Carpenter</option>
+<option>Mistri</option>
+<option>Painter</option>
+<option>AC Repair</option>
+</select>
+
+<button class="btn primary" onclick="nextStep(1)">Next</button>
+
+</div>
+
+<div id="step2" class="hide">
+
+<h2>Your Details</h2>
+
+<input placeholder="Name">
+<input placeholder="Phone">
+<input placeholder="Location">
+<textarea placeholder="Describe your problem"></textarea>
+
+<button class="btn primary" onclick="nextStep(2)">Submit</button>
+
+</div>
+
+<div id="step3" class="hide success">
+
+<h1>✔</h1>
+
+<h2>Request received!</h2>
+
+<p>We'll contact you shortly.</p>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
